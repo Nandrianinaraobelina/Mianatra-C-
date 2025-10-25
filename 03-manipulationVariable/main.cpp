@@ -5,17 +5,18 @@
 
 int main()
 {
-    std::cout <<"quel age avez_vous? \n";
-    int ageUtilisateur(0);
-    std::cin >> ageUtilisateur;
-    std::cout <<"j ai: " << ageUtilisateur <<" ans" << std::endl;
-
-    //-----------------------------------------------
 
     std::cout <<"\n quel est votre nom? \n";
     std::string nomUtilisateur("");
     std::cin >> nomUtilisateur;
     std::cout <<"Je m appelle: " << nomUtilisateur << std::endl;
+
+    //-----------------------------------------------
+
+    std::cout <<"quel age avez_vous? \n";
+    int ageUtilisateur(0);
+    std::cin >> ageUtilisateur;
+    std::cout <<"j ai: " << ageUtilisateur <<" ans" << std::endl;
 
     //-----------------------------------------------
 

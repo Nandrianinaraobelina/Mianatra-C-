@@ -13,7 +13,7 @@ int main()
     int c(10),e(11);
     cout <<"c  vaut: " <<c << " et d vaut: " << e << "\n";
 
-    cout <<"affectation!!! \n";
+    cout <<"affectation c=e \n";
         c=e;
     cout <<"c  vaut: " << c << " et d vaut: " << e << "\n";
 

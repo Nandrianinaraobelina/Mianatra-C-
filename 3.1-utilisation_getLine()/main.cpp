@@ -6,7 +6,7 @@ int main()
 {
     std::cout <<"quel age avez_vous?"  << std::endl;
     int ageUtilisateur (0);
-    std::cin >> ageUtilisateur;sy
+    std::cin >> ageUtilisateur;
 
     std::cin.ignore();
 

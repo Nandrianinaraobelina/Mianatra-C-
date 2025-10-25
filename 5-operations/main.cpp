@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -28,12 +29,6 @@ int main()
     //------------------------------------------------------
 
 
-    cout << "entrer une valeur:  ==> " << endl;
-    int nombre1(0),nombre2(0),resultats(0);
-    cin >> nombre1 << endl;
-    cin >> nombre2 << endl;
-    resultats = nombre1 + nombre2;
-    cout <<"La solutions est: " <<resultats <<endl;
 
 
     return 0;

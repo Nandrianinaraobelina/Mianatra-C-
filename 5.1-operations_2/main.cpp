@@ -4,13 +4,16 @@ using namespace std;
 
 int main()
 {
+    double nombre1(0),nombre2(0),resultats(0);
+    cout << "entrer la valeur numero 1:" << endl;
+    cin  >> nombre1;
+    cout << "entrer la valeur numero 2:" << endl;
+    cin  >> nombre2;
 
-    int nombre1(0),nombre2(0),resultats(0);
-    cout << "entrer la valeur numero 1:  ==> " << endl;
-    cin >> nombre1;
-    cout << "entrer la valeur numero 2:  ==> " << endl;
-    cin >> nombre2;
     resultats = nombre1 + nombre2;
-    cout <<"La solutions est: " <<resultats <<endl;
+
+     cout <<"------------------------------------------------"<< endl;
+    cout <<"La solutions de nbre1 + nbre2 est : " <<resultats << endl;
+
     return 0;
 }

@@ -26,7 +26,7 @@ int main()
 
     int a(4),b(5);
     b = a++;
-    cout << "post-incrimentations de b: " <<  b<< endl;
+    cout << "pre-incrimentations de b: " <<  b<< endl;
 
     //pre-incrimentation:
 

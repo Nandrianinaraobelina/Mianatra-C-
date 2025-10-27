@@ -5,8 +5,7 @@ using namespace std;
 
 int main()
 {
-    //RACINA CARRE: mampiasa ny atao hoe ==> sqrt()
-
+    //RACINE CARRE: mampiasa ny atao hoe ==> sqrt()
     double nombre;
     cout <<"Entrer la valeur: ";
     cin >> nombre;

@@ -17,16 +17,17 @@ int main()
     cout << "Veuillez entrer un nombre: \n" << endl;
     cin >> nombre;
     if(nombre > 0){
-        cout << "Le nombre est positifs! \n";
+        cout << "Le nombre est positifs! \n" << endl;
     }
     else if(nombre < 0){
-        cout << "le nombre est negative..\n";
+        cout << "le nombre est negative..\n" << endl;
     }
     else if(nombre == 0){
-        cout << "le nombre est NUL \n";
+        cout << "le nombre est NUL \n" << endl;
     }
     else{
         cout << "Veuillez entrer un chiffre mais pas lettre\n";
     }
+    cout << "------------------------------\n";
     return 0;
 }

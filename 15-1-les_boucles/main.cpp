@@ -3,7 +3,7 @@
 int main()
 {
     std::cout << "\n\nFAMPIASANA BOUCLE WHILE (exemple COMPTER)........\n\n" << std::endl;
-    int nombreCompter(1);
+    int nombreCompter(1);.
     int table(2);
     int resultats;
     
